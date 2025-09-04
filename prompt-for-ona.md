@@ -6,10 +6,10 @@ Erstelle eine neue ChurchTools Extension mit vollständiger ChurchTools Design S
 
 ## HIER ANPASSEN:
 
-**Titel:** "[IHR MODUL TITEL]"  
-**Kürzel:** "[IHR KÜRZEL]"  
-**Zweck:** "[BESCHREIBUNG DES MODULS]"  
-**Features:** "[FEATURE 1, FEATURE 2, FEATURE 3, FEATURE 4]"
+**Titel:** Churchtools Dashboard 
+**Kürzel:** ctdashboard
+**Zweck:** Dieses Modul hilft, das ChurchTools System zu überwachen
+**Features:** Anzahl User, Hauptaktiviäten, Fehler
 
 **Template:** https://github.com/bwl21/ct-extension-template-ona  
 **Zielverzeichnis:** Root des Environments (nicht in Unterordner)
@@ -17,9 +17,6 @@ Erstelle eine neue ChurchTools Extension mit vollständiger ChurchTools Design S
 ## Anforderungen:
 
 ### 1. Projekt Setup (Root-Level)
-- Clone Template-Repository temporär
-- Kopiere ALLE Dateien direkt ins Root-Verzeichnis (nicht in Unterordner)
-- Lösche temporäres Template-Verzeichnis
 - Aktualisiere Metadaten mit den oben definierten Werten:
   - `package.json`: name auf den Titel (kleingeschrieben, mit Bindestrichen)
   - `.env`: VITE_KEY auf das definierte Kürzel

@@ -43,3 +43,6 @@ temp/
 
 # Release packages (keep directory structure)
 releases/*.zip
+
+# Release directory
+releases/
